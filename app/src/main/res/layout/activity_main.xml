@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="@string/title"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/tv_import"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="#03A9F4"
+        android:gravity="center"
+        android:text="@string/import_contacts"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_export"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="#03A9F4"
+        android:gravity="center"
+        android:text="@string/export_contacts"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+</LinearLayout>
